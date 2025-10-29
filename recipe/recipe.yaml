@@ -1,6 +1,6 @@
 context:
   name: pixi-outdated
-  version: "0.1.0"
+  version: "0.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/benmoss/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 4cc91103d74afdb7d2217566870cc53d1fad943062dc2fef4a64ec1d72ec3d25
+  sha256: 32bf0da19e7c3b794dc289050617f60105392bd70938b1a7803c08ee54cab3c4
 
 build:
   number: 0
